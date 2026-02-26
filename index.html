@@ -8,55 +8,102 @@
 		<title>CareerPath Mentoring task</title>
 	</head>
 	<body>
-		<header class="header">
-			<div class="container"></div>
-		</header>
-		<main>
-			<section id="hero" class="hero">
-				<div class="container">
-					<div class="hero__content">
-						<h1>Career Path Now</h1>
-						<p>
-							CareerPathNow is a renowned career counseling organization that
-							helps individuals make informed decisions.
-						</p>
+		<input type="checkbox" id="theme-toggle" hidden>
+		<div class="page">
+			
+			<header class="header">
 
-						<div class="hero__buttons">
-							<a href="#" class="btn btn--primary">Get Started</a>
-							<a href="#" class="btn btn--link"><span><img src="assets/img/icons/play.svg" alt=""></span>Learn More</a>
+				
+
+				<div class="container">
+					<div class="header__wrapper">
+						<a href="/" class="header__logo">
+							<img src="assets/img/logo.svg" alt="ehya logo">
+						</a>
+						
+						<div class="header__actions">
+
+							<label for="theme-toggle" class="theme-toggle">
+								<img src="assets/img/icons/theme-button-mobile.svg" alt="dark mode">
+							</label>
+
+							<nav class="navbar">
+								<input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+								<label for="menu-toggle" class="burger-button">
+									<div class="icon">
+										<span></span>
+										<span></span>
+										<span></span>
+									</div>
+								</label>
+
+								<div class="menu-overlay">
+									<ul class="menu-links">
+										<li><a href="#">Home</a></li>
+										<li><a href="#">Home</a></li>
+										<li><a href="#">Home</a></li>
+										<li><a href="#">Home</a></li>
+										<li><a href="#">Home</a></li>
+										<li class="menu-cta">
+											<a href="#" class="btn-primary">Free Trial</a>
+										</li>
+									</ul>								 
+								</div>
+							</nav>
 						</div>
 					</div>
-					<div class="hero__statistics">
-                        <div class="hero-info">
-                            <article>
-                                <h3>Our Happy Users</h3>
-                                <h4>200+ Online User</h4>
-                                <span>+</span>
-                            </article>
-                            <article>
-                                <h3>27k</h3>
-                                <h4>Member Joined</h4>
-                                <span>+</span>
-                            </article>
-                            <article>
-                                <h3>Our Happy Users</h3>
-                                <h4>200+ Online User</h4>
-                                <span>+</span>
-                            </article>
-                        </div>
-						<img src="assets/img/girl-hero.png" alt="Career consultant holding tablet" />
-					</div>
 				</div>
-			</section>
-			<section id="about-us" class="about-us"></section>
-			<section id="services" class="services"></section>
-			<section class="story"></section>
-			<section class="reviews"></section>
-			<section id="contact" class="contact"></section>
-			<section></section>
-		</main>
-		<footer>
-			<div class="container"></div>
-		</footer>
+			</header>
+
+
+			<main>
+				<section id="hero" class="hero">
+					<div class="container">
+						<div class="hero__content">
+							<h1>Career Path Now</h1>
+							<p>
+								CareerPathNow is a renowned career counseling organization that
+								helps individuals make informed decisions.
+							</p>
+
+							<div class="hero__buttons">
+								<a href="#" class="btn btn--primary">Get Started</a>
+								<a href="#" class="btn btn--link"><span><img src="assets/img/icons/play.svg" alt=""></span>Learn More</a>
+							</div>
+						</div>
+						<div class="hero__statistics">
+							<div class="hero-info">
+								<article>
+									<h3>Our Happy Users</h3>
+									<h4>200+ Online User</h4>
+									<span>+</span>
+								</article>
+								<article>
+									<h3>27k</h3>
+									<h4>Member Joined</h4>
+									<span>+</span>
+								</article>
+								<article>
+									<h3>Our Happy Users</h3>
+									<h4>200+ Online User</h4>
+									<span>+</span>
+								</article>
+							</div>
+							<img src="assets/img/girl-hero.png" alt="Career consultant holding tablet" />
+						</div>
+					</div>
+				</section>
+				<section id="about-us" class="about-us"></section>
+				<section id="services" class="services"></section>
+				<section class="story"></section>
+				<section class="reviews"></section>
+				<section id="contact" class="contact"></section>
+				<section></section>
+			</main>
+			<footer>
+				<div class="container"></div>
+			</footer>
+		</div>
 	</body>
 </html>
