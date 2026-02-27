@@ -3,33 +3,28 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="assets/styles/style.css" />
 		<meta name="description" content="CareerPathNow helps individuals make informed career decisions." />
+		<link rel="stylesheet" href="assets/styles/style.css" />
 		<title>CareerPath Mentoring task</title>
 	</head>
 	<body>
-		<input type="checkbox" id="theme-toggle" hidden>
+		<input type="checkbox" id="theme-toggle" hidden />
 		<div class="page">
-			
 			<header class="header">
-
-				
-
 				<div class="container">
 					<div class="header__wrapper">
 						<a href="/" class="header__logo">
-							<img src="assets/img/logo.svg" alt="ehya logo">
+							<img src="assets/img/logo.svg" alt="ehya logo" />
 						</a>
-						
 						<div class="header__actions">
-
 							<label for="theme-toggle" class="theme-toggle">
-								<img src="assets/img/icons/theme-button-mobile.svg" alt="dark mode">
+								<img
+									src="assets/img/icons/theme-button-mobile.svg"
+									alt="dark mode"
+								/>
 							</label>
-
 							<nav class="navbar">
-								<input type="checkbox" id="menu-toggle" class="menu-toggle">
-
+								<input type="checkbox" id="menu-toggle" class="menu-toggle" />
 								<label for="menu-toggle" class="burger-button">
 									<div class="icon">
 										<span></span>
@@ -37,7 +32,6 @@
 										<span></span>
 									</div>
 								</label>
-
 								<div class="menu-overlay">
 									<ul class="menu-links">
 										<li><a href="#">Home</a></li>
@@ -48,49 +42,67 @@
 										<li class="menu-cta">
 											<a href="#" class="btn-primary">Free Trial</a>
 										</li>
-									</ul>								 
+									</ul>
 								</div>
 							</nav>
 						</div>
 					</div>
 				</div>
 			</header>
-
-
 			<main>
 				<section id="hero" class="hero">
 					<div class="container">
 						<div class="hero__content">
-							<h1>Career Path Now</h1>
+							<h1><span>Career</span> Path Now</h1>
 							<p>
 								CareerPathNow is a renowned career counseling organization that
 								helps individuals make informed decisions.
 							</p>
-
 							<div class="hero__buttons">
 								<a href="#" class="btn btn--primary">Get Started</a>
-								<a href="#" class="btn btn--link"><span><img src="assets/img/icons/play.svg" alt=""></span>Learn More</a>
+								<a href="#" class="btn btn--play"><img src="assets/img/icons/play.svg" alt="" /></a>
+								<a href="#" class="btn btn--link">Learn More</a>
+							</div>
+							<div class="hero__satisfied">
+								<div class="people big">
+									<img src="assets/img/users/user-1.png" alt="">
+									<img src="assets/img/users/user-2.png" alt="">
+									<img src="assets/img/users/user-3.png" alt="">
+								</div>
+								<span class="satisfied-statistics">10K+ satisfied students</span>
 							</div>
 						</div>
 						<div class="hero__statistics">
-							<div class="hero-info">
-								<article>
-									<h3>Our Happy Users</h3>
-									<h4>200+ Online User</h4>
-									<span>+</span>
-								</article>
-								<article>
-									<h3>27k</h3>
-									<h4>Member Joined</h4>
-									<span>+</span>
-								</article>
-								<article>
-									<h3>Our Happy Users</h3>
-									<h4>200+ Online User</h4>
-									<span>+</span>
-								</article>
+							<div class="hero-bg">
+								<div class="hero-info">
+									<article class="hero-card">
+										<h3>Our Happy Users</h3>
+										<h4>200+ Online User</h4>
+										<span>+</span>
+									</article>
+									<article class="hero-card">
+										<h3>27k</h3>
+										<h4>Member Joined</h4>
+										<div class="people">
+											<img src="assets/img/users/user-4.png" alt="">
+											<img src="assets/img/users/user-5.png" alt="">
+											<img src="assets/img/users/user-6.png" alt="">
+											<img src="assets/img/users/user-7.png" alt="">
+										</div>
+									</article>
+									<article class="hero-card">
+										<h3>Our Happy Users</h3>
+										<h4>200+ Online User</h4>
+										<div class="people">
+											<img src="assets/img/users/user-4.png" alt="">
+											<img src="assets/img/users/user-5.png" alt="">
+											<img src="assets/img/users/user-6.png" alt="">
+											<img src="assets/img/users/user-7.png" alt="">
+										</div>
+									</article>
+								</div>
 							</div>
-							<img src="assets/img/girl-hero.png" alt="Career consultant holding tablet" />
+							<img src="assets/img/girl-hero.png" class="hero-img" alt="Career consultant holding tablet" />
 						</div>
 					</div>
 				</section>
