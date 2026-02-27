@@ -1,0 +1,32 @@
+@use '../abstract/variables' as *;
+@use '../abstract/mixins' as *;
+
+
+.contact__form {
+    @include flex(center, center, column, 2rem);
+    padding: 1rem;
+    width: 100%;
+
+    input,
+    textarea {
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    }
+}
+
+
+// desktop
+
+@media (min-width: 1024px) {
+    .contact__form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        textarea {
+            grid-column: 1/3;
+        }
+        
+    }
+}
