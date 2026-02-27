@@ -1,5 +1,6 @@
 @use '../abstract/variables' as *;
 @use '../abstract/mixins' as *;
+@use "sass:color";
 
 .header {
     width: 100%;
@@ -124,7 +125,7 @@
   }
 
   .menu-overlay {
-    @include flex(null, space-around, column, 0)
+    @include flex(null, space-around, column, 0);
     position: fixed;  
     right: 0;
     // width: 200px; // ან 80% დიზაინის მიხედვით
@@ -388,7 +389,7 @@
           border: none;
           
           &:hover {
-            background-color: darken($color-btn-secondary, 20%);
+            background-color: color.scale($color-btn-secondary, $lightness: -20%);
           }
         }
       }

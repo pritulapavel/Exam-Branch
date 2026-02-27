@@ -185,8 +185,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar .menu-overlay {
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
+  flex-direction: column;
+  gap: 0;
   position: fixed;
   right: 0;
   top: 0;
@@ -512,4 +513,6 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   flex-direction: column;
   gap: 1rem;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
