@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px;
   border-radius: 8px;
   background-color: #000000;
-  color: #F5F5F5;
+  color: #FFFFFF;
   width: auto;
   text-align: center;
 }
@@ -294,14 +294,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #1E2A39;
 }
 
-<<<<<<< feature/section-hero
-.page {
-  display: flex;
-  flex-direction: column;
-  gap: 8rem;
-}
-
-=======
 @media (min-width: 1024px) {
   .desktop-toggle {
     display: flex; /* ახლა გამოჩნდება desktop toggle */
@@ -421,7 +413,12 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #cccccc;
   }
 }
->>>>>>> main
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
 .container {
   width: 100%;
   padding: 0 1.6rem;
