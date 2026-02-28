@@ -534,6 +534,40 @@ main {
   fill: #ffffff;
 }
 
+@media (min-width: 1024px) {
+  .container__footer {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    max-width: 114rem;
+    margin: auto;
+  }
+  .container__footer .footer__top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    padding-bottom: 4rem;
+  }
+  .container__footer .footer__top .footer__contact {
+    justify-self: start;
+    align-items: start;
+  }
+  .container__footer .footer__top .footer__social {
+    justify-self: center;
+  }
+  .container__footer .footer__top .footer-mail {
+    justify-self: end;
+    align-items: end;
+  }
+  .container__footer .desktop-cr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #e4d8d8;
+    padding-top: 2.4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+}
 .read-more {
   display: grid;
   justify-self: center;
