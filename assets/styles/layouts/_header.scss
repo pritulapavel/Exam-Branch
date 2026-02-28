@@ -14,7 +14,6 @@
 	&__wrapper {
 		@include flex(center, space-between, null, 0);
 		width: 100%;
-    box-shadow: $color-about-card-shadow;
 	}
 
 	&__actions {
