@@ -88,6 +88,13 @@
 			transform: translateX(0);
 			opacity: 1;
 		}
+    &:checked ~ .burger-button {
+      .icon {
+        span:nth-child(1) { transform: rotate(45deg) translate(0.35rem, 0.35rem); }
+        span:nth-child(2) { opacity: 0; }
+        span:nth-child(3) { transform: rotate(-45deg) translate(0.35rem, -0.35rem);}
+      }
+    }
 	}
 
 	.burger-button {

@@ -189,6 +189,15 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateX(0);
   opacity: 1;
 }
+.navbar .menu-toggle:checked ~ .burger-button .icon span:nth-child(1) {
+  transform: rotate(45deg) translate(0.35rem, 0.35rem);
+}
+.navbar .menu-toggle:checked ~ .burger-button .icon span:nth-child(2) {
+  opacity: 0;
+}
+.navbar .menu-toggle:checked ~ .burger-button .icon span:nth-child(3) {
+  transform: rotate(-45deg) translate(0.35rem, -0.35rem);
+}
 .navbar .burger-button {
   display: inline-flex;
   align-items: center;
