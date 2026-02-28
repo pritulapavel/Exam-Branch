@@ -7,10 +7,10 @@
 	padding: 2rem;
 	display: flex;
 	align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: $color-background-main;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	background: $color-background-main;
 
 	&__wrapper {
 		@include flex(center, space-between, null, 0);
@@ -372,4 +372,8 @@
 			}
 		}
 	}
+}
+
+body:has(#menu-toggle:checked) {
+	overflow: hidden;
 }
